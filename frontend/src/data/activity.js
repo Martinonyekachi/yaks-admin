@@ -1,0 +1,18 @@
+export const activityLog = [
+  { id: 'ACT-0016', description: 'User account created', actor: 'Osuji Martin', category: 'Users', happenedAt: '2026-11-26T13:08:00+01:00', record: 'YKS-01043 · Amina Yusuf', path: '/users' },
+  { id: 'ACT-0015', description: 'Transaction marked successful', actor: 'Osuji Martin', category: 'Transactions', happenedAt: '2026-11-26T12:14:00+01:00', record: 'TXN-260284 · ₦560,000', path: '/transactions' },
+  { id: 'ACT-0014', description: 'Project status updated', actor: 'Phoenix Baker', category: 'Projects', happenedAt: '2026-11-26T09:18:00+01:00', record: 'PRJ-1003 · Customer Portal', path: '/projects' },
+  { id: 'ACT-0013', description: 'Administrator sign-in blocked by security policy', actor: 'System', category: 'Security Alerts', happenedAt: '2026-11-26T08:46:00+01:00', record: 'SEC-0081 · Osuji Martin', path: '/settings' },
+  { id: 'ACT-0012', description: 'Maintenance window announced', actor: 'System', category: 'System Updates', happenedAt: '2026-11-25T18:00:00+01:00', record: 'Maintenance · 26 Nov', path: '/settings' },
+  { id: 'ACT-0011', description: 'Project created', actor: 'Osuji Martin', category: 'Projects', happenedAt: '2026-11-25T16:24:00+01:00', record: 'PRJ-1015 · Q1 Customer Research', path: '/projects' },
+  { id: 'ACT-0010', description: 'Security policy updated', actor: 'Osuji Martin', category: 'Security Alerts', happenedAt: '2026-11-25T14:52:00+01:00', record: 'Two-factor authentication required', path: '/settings' },
+  { id: 'ACT-0009', description: 'User role updated', actor: 'Osuji Martin', category: 'Users', happenedAt: '2026-11-25T11:58:00+01:00', record: 'YKS-01026 · Lana Steiner', path: '/users' },
+  { id: 'ACT-0008', description: 'Refund recorded', actor: 'Osuji Martin', category: 'Transactions', happenedAt: '2026-11-25T10:16:00+01:00', record: 'TXN-260280 · ₦1,340,000', path: '/transactions' },
+  { id: 'ACT-0007', description: 'Project milestone completed', actor: 'Drew Cano', category: 'Projects', happenedAt: '2026-11-24T15:40:00+01:00', record: 'PRJ-1001 · Design review', path: '/projects' },
+  { id: 'ACT-0006', description: 'Payment settlement received', actor: 'System', category: 'Transactions', happenedAt: '2026-11-24T12:37:00+01:00', record: 'TXN-260285 · ₦1,180,000', path: '/transactions' },
+  { id: 'ACT-0005', description: 'Notification preferences updated', actor: 'Osuji Martin', category: 'System Updates', happenedAt: '2026-11-23T12:06:00+01:00', record: 'Weekly activity summary', path: '/settings' },
+  { id: 'ACT-0004', description: 'User account deactivated', actor: 'Osuji Martin', category: 'Users', happenedAt: '2026-11-22T10:41:00+01:00', record: 'YKS-01029 · Natali Craig', path: '/users' },
+  { id: 'ACT-0003', description: 'Project put on hold', actor: 'Candice Wu', category: 'Projects', happenedAt: '2026-11-21T13:27:00+01:00', record: 'PRJ-1005 · Analytics migration', path: '/projects' },
+  { id: 'ACT-0002', description: 'Successful invoice payment', actor: 'System', category: 'Transactions', happenedAt: '2026-11-21T11:42:00+01:00', record: 'TXN-260289 · ₦1,240,000', path: '/transactions' },
+  { id: 'ACT-0001', description: 'Workspace appearance settings saved', actor: 'Osuji Martin', category: 'System Updates', happenedAt: '2026-11-19T12:06:00+01:00', record: 'Appearance preferences', path: '/settings' },
+]
